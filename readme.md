@@ -47,8 +47,8 @@ You can set these environment variables using one of the following methods:
 
   ```
   PORT=3000
-  MONGO_URL=mongodb://localhost:27017/mydatabase
-  JWT_SECRET=mySecretKey
+  MONGO_URL=mongodb://localhost:27017/auth-app
+  JWT_SECRET= mySecretKey
   BASE_URL_FRONT=http://localhost:3000
   ```
 
