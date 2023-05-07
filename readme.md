@@ -2,7 +2,7 @@
 
 This is an authentication app built using React and Express.js. It utilizes JWT token-based authentication and Passport for user authentication and authorization. Redux is used for state management in the React front-end, and a token verification middleware is implemented in the Express.js backend.
 
-## Overview (100 lines)
+## Overview
 
 This authentication app provides a secure user authentication and authorization system. It leverages the following technologies and features:
 
@@ -20,7 +20,7 @@ This authentication app provides a secure user authentication and authorization 
 
 ## Installation and Usage
 
-1. Clone the repository: `git clone https://github.com/your-username/authentication-app.git`
+1. Clone the repository: `git clone https://github.com/muhammedamirt/user-authentication-app.git`
 2. Install dependencies:
    - React (front-end): `cd client && npm install`
    - Express.js (back-end): `cd server && npm install`
@@ -38,3 +38,59 @@ This authentication app provides a secure user authentication and authorization 
 Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 This project is licensed under the MIT License.
+###
+
+(Choose the appropriate command based on your project's requirements.)
+
+4. Set up the environment variables:
+
+The following environment variables need to be set in order for the backend to function properly:
+
+- `PORT`: Specify the port on which your backend server will run.
+- `MONGO_URL`: Set the URL of your MongoDB database.
+- `JWT_SECRET`: Choose a secret key for signing and verifying JSON Web Tokens (JWTs) for authentication purposes.
+- `BASE_URL_FRONT`: Provide the base URL of your frontend application.
+
+You can set these environment variables using one of the following methods:
+
+- Create a `.env` file in the root directory of your project and add the following lines:
+
+  ```
+  PORT=3000
+  MONGO_URL=mongodb://localhost:27017/mydatabase
+  JWT_SECRET=mySecretKey
+  BASE_URL_FRONT=http://localhost:3000
+  ```
+
+  Replace the values with your specific configurations.
+
+- Use environment-specific configuration files and load them based on the current environment.
+
+- Set the environment variables directly in your development or deployment environment using the appropriate method for your operating system or hosting platform.
+
+Note: Make sure to add the `.env` file (if you choose to use one) to your `.gitignore` file to avoid committing sensitive information to your version control system.
+
+5. [Add any additional setup or configuration steps if necessary.]
+
+6. [Provide instructions on how to run the project, including any command-line arguments or configuration options.]
+
+7. [Add any other relevant information, such as examples or important considerations.]
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature/bug fix.
+
+3. Make your changes and commit them.
+
+4. Push your changes to your forked repository.
+
+5. Submit a pull request, describing your changes in detail.
+
+## License
+
+[Include information about the project's license if applicable.]
+
