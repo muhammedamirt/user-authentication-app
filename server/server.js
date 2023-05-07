@@ -15,7 +15,7 @@ const PORT = process.env.PORT;
 import cors from "cors";
 // Allow requests from localhost:3000
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: '*',
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
