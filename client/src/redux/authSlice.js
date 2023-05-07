@@ -7,7 +7,6 @@ const userAuth = createSlice({
   },
   reducers: {
     userAddDetails(state, actions) {
-      console.log(actions.payload);
       const newItem = actions.payload;
       state.userToken = newItem;
     },

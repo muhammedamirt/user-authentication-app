@@ -25,7 +25,6 @@ const SignUpComponent = () => {
       setBlankCheck(false);
       //calling the api function for send user data to backend server
       const response = await registerAPI({ name, email, password });
-      console.log(response);
       if (response.userRegistered === true) {
         // setting data in redux
         dispatch(userAddDetails({ token: response?.token }));
