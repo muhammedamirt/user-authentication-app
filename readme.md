@@ -40,9 +40,7 @@ Contributions to this project are welcome. If you encounter any issues or have s
 This project is licensed under the MIT License.
 ###
 
-(Choose the appropriate command based on your project's requirements.)
-
-4. Set up the environment variables:
+## Set up the Backend environment variables:
 
 The following environment variables need to be set in order for the backend to function properly:
 
@@ -93,4 +91,15 @@ If you'd like to contribute to this project, please follow these steps:
 ## License
 
 [Include information about the project's license if applicable.]
+
+
+## Set up the Frontend environment variables:
+
+The following environment variables need to be set for the React frontend to interact with the backend:
+
+- `REACT_APP_BASE_URL_BACKEND`: This variable represents the base URL of your backend server. Set the value of `REACT_APP_BASE_URL_BACKEND` to the URL where your backend is hosted or the local development server URL (e.g., http://localhost:3001).
+
+- `REACT_APP_GOOGLE_CLIENT_ID` and `REACT_APP_GOOGLE_CLIENT_SECRET`: These variables are used for Google OAuth authentication. You need to obtain client credentials from the Google Developers Console and set the corresponding values for `REACT_APP_GOOGLE_CLIENT_ID` and `REACT_APP_GOOGLE_CLIENT_SECRET`.
+
+To set these environment variables, create a `.env` file in the root directory of your React project and add the following lines:
 
